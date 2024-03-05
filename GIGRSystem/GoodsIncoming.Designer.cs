@@ -192,7 +192,7 @@
             this.btnsave.TabIndex = 17;
             this.btnsave.Text = "Save and Print";
             this.btnsave.UseVisualStyleBackColor = false;
-            this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
+          //  this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
             // 
             // cbHPnumber
             // 

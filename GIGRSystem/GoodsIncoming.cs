@@ -103,10 +103,6 @@ namespace GIGRSystem
 
         }
 
-        private void btnsave_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void cbHPnumber_SelectedIndexChanged(object sender, EventArgs e)
         {
