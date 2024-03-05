@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
@@ -35,7 +36,6 @@
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.cbModel = new System.Windows.Forms.ComboBox();
             this.cbIPQC = new System.Windows.Forms.ComboBox();
-            this.cbReceived = new System.Windows.Forms.ComboBox();
             this.btnsave = new System.Windows.Forms.Button();
             this.cbHPnumber = new System.Windows.Forms.ComboBox();
             this.lblboxseries = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.txthpcode = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.lvlweigh = new System.Windows.Forms.Label();
+            this.lblweigh = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
@@ -73,6 +73,15 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.eventLog1 = new System.Diagnostics.EventLog();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label14 = new System.Windows.Forms.Label();
+            this.lblHSType = new System.Windows.Forms.Label();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.txtreceived = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.lblDate = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -125,15 +134,21 @@
             this.tabControl1.Location = new System.Drawing.Point(6, 51);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1310, 585);
+            this.tabControl1.Size = new System.Drawing.Size(1330, 585);
             this.tabControl1.TabIndex = 4;
             // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.Color.White;
+            this.tabPage1.Controls.Add(this.lblDate);
+            this.tabPage1.Controls.Add(this.label15);
+            this.tabPage1.Controls.Add(this.txtreceived);
+            this.tabPage1.Controls.Add(this.lblHSType);
+            this.tabPage1.Controls.Add(this.label14);
+            this.tabPage1.Controls.Add(this.label13);
+            this.tabPage1.Controls.Add(this.comboBox2);
             this.tabPage1.Controls.Add(this.cbModel);
             this.tabPage1.Controls.Add(this.cbIPQC);
-            this.tabPage1.Controls.Add(this.cbReceived);
             this.tabPage1.Controls.Add(this.btnsave);
             this.tabPage1.Controls.Add(this.cbHPnumber);
             this.tabPage1.Controls.Add(this.lblboxseries);
@@ -144,7 +159,7 @@
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.txthpcode);
             this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.lvlweigh);
+            this.tabPage1.Controls.Add(this.lblweigh);
             this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Controls.Add(this.panel3);
@@ -152,7 +167,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 32);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(1302, 549);
+            this.tabPage1.Size = new System.Drawing.Size(1322, 549);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Goods Incoming Interface";
             // 
@@ -173,14 +188,6 @@
             this.cbIPQC.Size = new System.Drawing.Size(438, 37);
             this.cbIPQC.TabIndex = 19;
             // 
-            // cbReceived
-            // 
-            this.cbReceived.FormattingEnabled = true;
-            this.cbReceived.Location = new System.Drawing.Point(157, 331);
-            this.cbReceived.Name = "cbReceived";
-            this.cbReceived.Size = new System.Drawing.Size(438, 37);
-            this.cbReceived.TabIndex = 18;
-            // 
             // btnsave
             // 
             this.btnsave.BackColor = System.Drawing.Color.DarkOrange;
@@ -192,7 +199,7 @@
             this.btnsave.TabIndex = 17;
             this.btnsave.Text = "Save and Print";
             this.btnsave.UseVisualStyleBackColor = false;
-          //  this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
+            this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
             // 
             // cbHPnumber
             // 
@@ -207,7 +214,7 @@
             // 
             this.lblboxseries.AutoSize = true;
             this.lblboxseries.Font = new System.Drawing.Font("Artifakt Element Black", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblboxseries.Location = new System.Drawing.Point(613, 362);
+            this.lblboxseries.Location = new System.Drawing.Point(601, 364);
             this.lblboxseries.Name = "lblboxseries";
             this.lblboxseries.Size = new System.Drawing.Size(667, 67);
             this.lblboxseries.TabIndex = 15;
@@ -250,15 +257,15 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(41, 208);
+            this.label6.Location = new System.Drawing.Point(8, 185);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(110, 29);
+            this.label6.Size = new System.Drawing.Size(169, 29);
             this.label6.TabIndex = 8;
-            this.label6.Text = "HP Code:";
+            this.label6.Text = "Material Code:";
             // 
             // txthpcode
             // 
-            this.txthpcode.Location = new System.Drawing.Point(157, 200);
+            this.txthpcode.Location = new System.Drawing.Point(157, 213);
             this.txthpcode.Name = "txthpcode";
             this.txthpcode.ReadOnly = true;
             this.txthpcode.Size = new System.Drawing.Size(438, 37);
@@ -273,15 +280,15 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "KG";
             // 
-            // lvlweigh
+            // lblweigh
             // 
-            this.lvlweigh.AutoSize = true;
-            this.lvlweigh.Font = new System.Drawing.Font("Artifakt Element", 150F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lvlweigh.Location = new System.Drawing.Point(601, 103);
-            this.lvlweigh.Name = "lvlweigh";
-            this.lvlweigh.Size = new System.Drawing.Size(679, 280);
-            this.lvlweigh.TabIndex = 5;
-            this.lvlweigh.Text = "00.00";
+            this.lblweigh.AutoSize = true;
+            this.lblweigh.Font = new System.Drawing.Font("Artifakt Element", 150F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblweigh.Location = new System.Drawing.Point(601, 103);
+            this.lblweigh.Name = "lblweigh";
+            this.lblweigh.Size = new System.Drawing.Size(679, 280);
+            this.lblweigh.TabIndex = 5;
+            this.lblweigh.Text = "00.00";
             // 
             // label3
             // 
@@ -536,17 +543,91 @@
             // 
             this.eventLog1.SynchronizingObject = this;
             // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(1063, 506);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(230, 37);
+            this.comboBox2.TabIndex = 23;
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(870, 514);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(187, 29);
+            this.label13.TabIndex = 24;
+            this.label13.Text = "Weighing Scale:";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(613, 83);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(109, 29);
+            this.label14.TabIndex = 26;
+            this.label14.Text = "HS TYPE:";
+            // 
+            // lblHSType
+            // 
+            this.lblHSType.AutoSize = true;
+            this.lblHSType.Location = new System.Drawing.Point(728, 83);
+            this.lblHSType.Name = "lblHSType";
+            this.lblHSType.Size = new System.Drawing.Size(102, 29);
+            this.lblHSType.TabIndex = 27;
+            this.lblHSType.Text = "Straight";
+            // 
+            // timer2
+            // 
+            this.timer2.Enabled = true;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // txtreceived
+            // 
+            this.txtreceived.BackColor = System.Drawing.Color.White;
+            this.txtreceived.Location = new System.Drawing.Point(157, 331);
+            this.txtreceived.Name = "txtreceived";
+            this.txtreceived.ReadOnly = true;
+            this.txtreceived.Size = new System.Drawing.Size(438, 37);
+            this.txtreceived.TabIndex = 28;
+            this.txtreceived.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(947, 80);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(79, 29);
+            this.label15.TabIndex = 29;
+            this.label15.Text = "DATE :";
+            // 
+            // lblDate
+            // 
+            this.lblDate.AutoSize = true;
+            this.lblDate.Location = new System.Drawing.Point(1032, 80);
+            this.lblDate.Name = "lblDate";
+            this.lblDate.Size = new System.Drawing.Size(261, 29);
+            this.lblDate.TabIndex = 30;
+            this.lblDate.Text = "yyyy-MM-dd HH:mm:ss";
+            // 
             // GoodsIncoming
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(1323, 662);
+            this.ClientSize = new System.Drawing.Size(1346, 662);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GoodsIncoming";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GoodsIncoming";
             this.Load += new System.EventHandler(this.GoodsIncoming_Load);
             this.panel1.ResumeLayout(false);
@@ -585,12 +666,11 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txthpcode;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label lvlweigh;
+        private System.Windows.Forms.Label lblweigh;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ComboBox cbIPQC;
-        private System.Windows.Forms.ComboBox cbReceived;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox cbModel;
         private System.Windows.Forms.TabPage tabPage3;
@@ -614,5 +694,14 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Label lblHSType;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.TextBox txtreceived;
+        private System.Windows.Forms.Label lblDate;
+        private System.Windows.Forms.Label label15;
     }
 }
