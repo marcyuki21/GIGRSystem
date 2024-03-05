@@ -21,6 +21,15 @@ namespace GIGRSystem
         {
             Login sf = new Login();
             sf.Show();
+           
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            GoodsIncoming gi = new GoodsIncoming();
+            gi.Show();
+            
+           
         }
     }
 }
