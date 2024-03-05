@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\bin\Debug\GIGRSystem.exe.config
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\bin\Debug\GIGRSystem.exe
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\bin\Debug\GIGRSystem.pdb
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csprojAssemblyReference.cache
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.Login.resources
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.Properties.Resources.resources
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.Signup.resources
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csproj.GenerateResource.cache
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.exe
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.pdb
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\bin\Debug\MySql.Data.dll
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csproj.CopyComplete
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.Loginoptions.resources
