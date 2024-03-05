@@ -9,8 +9,6 @@ C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csproj.Gen
 C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.exe
 C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.pdb
-C:\Users\User\source\repos\GIGRSystem\GIGRSystem\bin\Debug\MySql.Data.dll
-C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csproj.CopyComplete
 C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.Loginoptions.resources
 C:\Users\User\Documents\GitHub\GIGRSystem\GIGRSystem\bin\Debug\GIGRSystem.exe.config
 C:\Users\User\Documents\GitHub\GIGRSystem\GIGRSystem\bin\Debug\GIGRSystem.exe
@@ -27,3 +25,4 @@ C:\Users\User\Documents\GitHub\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csproj
 C:\Users\User\Documents\GitHub\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csproj.CopyComplete
 C:\Users\User\Documents\GitHub\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.exe
 C:\Users\User\Documents\GitHub\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.pdb
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.GoodsIncoming.resources
