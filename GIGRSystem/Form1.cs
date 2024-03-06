@@ -20,18 +20,23 @@ namespace GIGRSystem
             InitializeComponent();
         }
 
+      
+
         private void button1_Click(object sender, EventArgs e)
         {
-            string existquery ="select username from mmioscredentials where username ='"+txtuser.Text+"' ";
+            string existquery = "select username from mmioscredentials where username ='" + txtuser.Text + "' ";
             string passquery = "select password from mmioscredentials where username ='" + txtuser.Text + "' ";
-
+            string queryname = "select fullname from mmioscredentials where username ='" + txtuser.Text + "' ";
+            string name = nc.getdata(queryname);
             if (nc.dataExist(existquery) == true)
             {
                 string password = nc.getdata(passquery);
                 if (txtpass.Text == password)
                 {
                     Loginoptions lo = new Loginoptions();
+                    
                     lo.Show();
+                    GoodsIncoming.receiver = name;
 
 
                 }
