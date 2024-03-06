@@ -429,6 +429,7 @@ namespace GIGRSystem
 
         private void button6_Click(object sender, EventArgs e)
         {
+            //test
             if (timelimit == true && comboBox1.Text != "")
             {
 
