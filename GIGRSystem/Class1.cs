@@ -96,6 +96,79 @@ namespace GIGRSystem
 
         }
 
+        public DataSet filldata(string query)
+        {
+
+            DataSet dt = new DataSet();
+            try
+            {
+                mycon = new MySqlConnection(connection137);
+                mycon.Open();
+                myadapt = new MySqlDataAdapter(query, mycon);
+                myadapt.Fill(dt);
+
+                mycon.Close();
+                mycon.Dispose();
+
+            }
+            catch (Exception)
+            {
+
+                mycon.Close();
+                mycon.Dispose();
+
+                throw;
+            }
+
+            return dt;
+
+        }
+
+        public void udata(string query)
+        {
+
+            try
+            {
+                mycon = new MySqlConnection(connection137);
+                mycon.Open();
+                mycom = new MySqlCommand(query, mycon);
+                myread = mycom.ExecuteReader();
+                mycon.Close();
+                mycon.Dispose();
+            }
+            catch (Exception)
+            {
+
+                mycon.Close();
+                mycon.Dispose();
+                throw;
+            }
+
+        }
+
+
+        public void deldata(string query)
+        {
+
+            try
+            {
+                mycon = new MySqlConnection(connection137);
+                mycon.Open();
+                mycom = new MySqlCommand(query, mycon);
+                myread = mycom.ExecuteReader();
+                mycon.Close();
+                mycon.Dispose();
+            }
+            catch (Exception)
+            {
+
+                mycon.Close();
+                mycon.Dispose();
+                throw;
+            }
+
+        }
+
 
 
     }
