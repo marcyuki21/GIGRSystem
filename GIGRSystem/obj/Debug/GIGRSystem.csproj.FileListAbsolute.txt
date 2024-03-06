@@ -26,3 +26,4 @@ C:\Users\User\Documents\GitHub\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.pdb
 C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csprojAssemblyReference.cache
 C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.GoodsIncoming.resources
 C:\Users\User\Documents\GitHub\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.csprojAssemblyReference.cache
+C:\Users\User\source\repos\GIGRSystem\GIGRSystem\obj\Debug\GIGRSystem.GRForm.resources

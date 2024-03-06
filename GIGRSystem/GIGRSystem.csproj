@@ -65,6 +65,12 @@
     <Compile Include="GoodsIncoming.Designer.cs">
       <DependentUpon>GoodsIncoming.cs</DependentUpon>
     </Compile>
+    <Compile Include="GRForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GRForm.Designer.cs">
+      <DependentUpon>GRForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Loginoptions.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +90,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GoodsIncoming.resx">
       <DependentUpon>GoodsIncoming.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GRForm.resx">
+      <DependentUpon>GRForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Loginoptions.resx">
       <DependentUpon>Loginoptions.cs</DependentUpon>
