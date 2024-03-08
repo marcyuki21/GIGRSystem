@@ -37,6 +37,7 @@ namespace GIGRSystem
                     
                     lo.Show();
                     GoodsIncoming.receiver = name;
+                    Issuance.issuer = name;
 
 
                 }

@@ -37,5 +37,11 @@ namespace GIGRSystem
             GRForm grf = new GRForm();
             grf.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Issuance ic = new Issuance();
+            ic.Show();
+        }
     }
 }
