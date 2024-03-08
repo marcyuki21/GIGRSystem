@@ -34,6 +34,17 @@
             this.button2 = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label12 = new System.Windows.Forms.Label();
+            this.lblGIweigh = new System.Windows.Forms.Label();
+            this.lblhsDate = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lblipqc = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.lblreceived = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.lbllotno = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.lblIDbox = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblremaining = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -67,48 +78,52 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label33 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.label35 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.label32 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label17 = new System.Windows.Forms.Label();
-            this.button3 = new System.Windows.Forms.Button();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.label34 = new System.Windows.Forms.Label();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label42 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.lblIDbox = new System.Windows.Forms.Label();
-            this.lbllotno = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.lblreceived = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.lblipqc = new System.Windows.Forms.Label();
-            this.lblhsDate = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.lblGIweigh = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.lblpWeigh = new System.Windows.Forms.Label();
+            this.lblpDate = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.lblphpsize = new System.Windows.Forms.Label();
+            this.label24 = new System.Windows.Forms.Label();
+            this.lblpLotno = new System.Windows.Forms.Label();
+            this.label26 = new System.Windows.Forms.Label();
+            this.lblpBoxid = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
+            this.lblPremaining = new System.Windows.Forms.Label();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.lblptype = new System.Windows.Forms.Label();
+            this.label31 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtpissuedto = new System.Windows.Forms.TextBox();
+            this.label32 = new System.Windows.Forms.Label();
+            this.txtpissuedby = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.txtpquantity = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.label36 = new System.Windows.Forms.Label();
+            this.lblpBoxseries = new System.Windows.Forms.Label();
+            this.txtplotno = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.label44 = new System.Windows.Forms.Label();
+            this.label45 = new System.Windows.Forms.Label();
+            this.lblweigh2 = new System.Windows.Forms.Label();
+            this.lblpquantity = new System.Windows.Forms.Label();
+            this.lblpmodel = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.lblphpnumber = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.lblphpcode = new System.Windows.Forms.Label();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.txtpboxserial = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -116,15 +131,16 @@
             this.groupBox2.SuspendLayout();
             this.panel3.SuspendLayout();
             this.tabPage2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.panel2.Location = new System.Drawing.Point(21, 688);
+            this.panel2.Location = new System.Drawing.Point(1, 692);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1367, 28);
             this.panel2.TabIndex = 5;
@@ -204,6 +220,106 @@
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "BENDING";
             this.tabPage1.UseVisualStyleBackColor = true;
+            this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(493, 153);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(68, 23);
+            this.label12.TabIndex = 78;
+            this.label12.Text = "WEIGH:";
+            // 
+            // lblGIweigh
+            // 
+            this.lblGIweigh.AutoSize = true;
+            this.lblGIweigh.Location = new System.Drawing.Point(607, 153);
+            this.lblGIweigh.Name = "lblGIweigh";
+            this.lblGIweigh.Size = new System.Drawing.Size(20, 23);
+            this.lblGIweigh.TabIndex = 77;
+            this.lblGIweigh.Text = "0";
+            // 
+            // lblhsDate
+            // 
+            this.lblhsDate.AutoSize = true;
+            this.lblhsDate.Location = new System.Drawing.Point(436, 317);
+            this.lblhsDate.Name = "lblhsDate";
+            this.lblhsDate.Size = new System.Drawing.Size(53, 23);
+            this.lblhsDate.TabIndex = 76;
+            this.lblhsDate.Text = "DATE:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(295, 320);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(53, 23);
+            this.label14.TabIndex = 75;
+            this.label14.Text = "DATE:";
+            // 
+            // lblipqc
+            // 
+            this.lblipqc.AutoSize = true;
+            this.lblipqc.Location = new System.Drawing.Point(422, 236);
+            this.lblipqc.Name = "lblipqc";
+            this.lblipqc.Size = new System.Drawing.Size(20, 23);
+            this.lblipqc.TabIndex = 74;
+            this.lblipqc.Text = "0";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(340, 236);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(51, 23);
+            this.label6.TabIndex = 73;
+            this.label6.Text = "IPQC:";
+            // 
+            // lblreceived
+            // 
+            this.lblreceived.AutoSize = true;
+            this.lblreceived.Location = new System.Drawing.Point(422, 194);
+            this.lblreceived.Name = "lblreceived";
+            this.lblreceived.Size = new System.Drawing.Size(20, 23);
+            this.lblreceived.TabIndex = 72;
+            this.lblreceived.Text = "0";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(295, 194);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(112, 23);
+            this.label11.TabIndex = 71;
+            this.label11.Text = "RECEIVED BY:";
+            // 
+            // lbllotno
+            // 
+            this.lbllotno.AutoSize = true;
+            this.lbllotno.Location = new System.Drawing.Point(371, 153);
+            this.lbllotno.Name = "lbllotno";
+            this.lbllotno.Size = new System.Drawing.Size(20, 23);
+            this.lbllotno.TabIndex = 70;
+            this.lbllotno.Text = "0";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(295, 153);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(70, 23);
+            this.label10.TabIndex = 69;
+            this.label10.Text = "LOT NO:";
+            // 
+            // lblIDbox
+            // 
+            this.lblIDbox.AutoSize = true;
+            this.lblIDbox.Location = new System.Drawing.Point(461, 113);
+            this.lblIDbox.Name = "lblIDbox";
+            this.lblIDbox.Size = new System.Drawing.Size(28, 23);
+            this.lblIDbox.TabIndex = 68;
+            this.lblIDbox.Text = "ID";
             // 
             // label1
             // 
@@ -480,9 +596,9 @@
             this.label40.AutoSize = true;
             this.label40.Location = new System.Drawing.Point(32, 80);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(167, 23);
+            this.label40.Size = new System.Drawing.Size(145, 23);
             this.label40.TabIndex = 48;
-            this.label40.Text = "SCAN GI BOX SERIAL";
+            this.label40.Text = "SCAN BOX SERIAL";
             // 
             // panel3
             // 
@@ -506,24 +622,36 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.label36);
-            this.tabPage2.Controls.Add(this.label37);
-            this.tabPage2.Controls.Add(this.groupBox1);
-            this.tabPage2.Controls.Add(this.panel4);
-            this.tabPage2.Controls.Add(this.button3);
+            this.tabPage2.Controls.Add(this.label16);
+            this.tabPage2.Controls.Add(this.lblpWeigh);
+            this.tabPage2.Controls.Add(this.lblpDate);
             this.tabPage2.Controls.Add(this.label20);
-            this.tabPage2.Controls.Add(this.label21);
-            this.tabPage2.Controls.Add(this.label22);
+            this.tabPage2.Controls.Add(this.lblphpsize);
             this.tabPage2.Controls.Add(this.label24);
-            this.tabPage2.Controls.Add(this.label25);
+            this.tabPage2.Controls.Add(this.lblpLotno);
             this.tabPage2.Controls.Add(this.label26);
-            this.tabPage2.Controls.Add(this.label27);
+            this.tabPage2.Controls.Add(this.lblpBoxid);
             this.tabPage2.Controls.Add(this.label28);
-            this.tabPage2.Controls.Add(this.label29);
-            this.tabPage2.Controls.Add(this.label30);
+            this.tabPage2.Controls.Add(this.lblPremaining);
+            this.tabPage2.Controls.Add(this.dataGridView2);
+            this.tabPage2.Controls.Add(this.lblptype);
             this.tabPage2.Controls.Add(this.label31);
-            this.tabPage2.Controls.Add(this.textBox5);
-            this.tabPage2.Controls.Add(this.label34);
+            this.tabPage2.Controls.Add(this.groupBox1);
+            this.tabPage2.Controls.Add(this.button3);
+            this.tabPage2.Controls.Add(this.label44);
+            this.tabPage2.Controls.Add(this.label45);
+            this.tabPage2.Controls.Add(this.lblweigh2);
+            this.tabPage2.Controls.Add(this.lblpquantity);
+            this.tabPage2.Controls.Add(this.lblpmodel);
+            this.tabPage2.Controls.Add(this.label49);
+            this.tabPage2.Controls.Add(this.lblphpnumber);
+            this.tabPage2.Controls.Add(this.label51);
+            this.tabPage2.Controls.Add(this.lblphpcode);
+            this.tabPage2.Controls.Add(this.label53);
+            this.tabPage2.Controls.Add(this.label54);
+            this.tabPage2.Controls.Add(this.txtpboxserial);
+            this.tabPage2.Controls.Add(this.label55);
+            this.tabPage2.Controls.Add(this.panel4);
             this.tabPage2.Location = new System.Drawing.Point(4, 32);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -531,109 +659,6 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "PRODUCTION";
             this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(157, 299);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(20, 23);
-            this.label36.TabIndex = 47;
-            this.label36.Text = "0";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(47, 299);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(52, 23);
-            this.label37.TabIndex = 46;
-            this.label37.Text = "TYPE:";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.textBox6);
-            this.groupBox1.Controls.Add(this.label35);
-            this.groupBox1.Controls.Add(this.textBox3);
-            this.groupBox1.Controls.Add(this.label23);
-            this.groupBox1.Controls.Add(this.label19);
-            this.groupBox1.Controls.Add(this.label18);
-            this.groupBox1.Controls.Add(this.textBox4);
-            this.groupBox1.Controls.Add(this.label32);
-            this.groupBox1.Location = new System.Drawing.Point(783, 58);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(520, 292);
-            this.groupBox1.TabIndex = 45;
-            this.groupBox1.TabStop = false;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(171, 199);
-            this.textBox6.MaxLength = 10;
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(295, 30);
-            this.textBox6.TabIndex = 44;
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(22, 206);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(95, 23);
-            this.label35.TabIndex = 43;
-            this.label35.Text = "ISSUED BY:";
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(171, 111);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(130, 30);
-            this.textBox3.TabIndex = 28;
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(22, 118);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(143, 23);
-            this.label23.TabIndex = 37;
-            this.label23.Text = "ISSUE QUANTITY:";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(19, 27);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(106, 23);
-            this.label19.TabIndex = 41;
-            this.label19.Text = "BOX SERIES:";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Font = new System.Drawing.Font("Artifakt Element", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.Location = new System.Drawing.Point(16, 50);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(355, 37);
-            this.label18.TabIndex = 42;
-            this.label18.Text = "IC-HSXXXX-XXXX-XXXXXA";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(171, 153);
-            this.textBox4.MaxLength = 10;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(295, 30);
-            this.textBox4.TabIndex = 26;
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(22, 160);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(70, 23);
-            this.label32.TabIndex = 27;
-            this.label32.Text = "LOT NO:";
             // 
             // panel4
             // 
@@ -655,132 +680,6 @@
             this.label17.TabIndex = 0;
             this.label17.Text = "Goods Issuance";
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.PeachPuff;
-            this.button3.Location = new System.Drawing.Point(875, 514);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(348, 62);
-            this.button3.TabIndex = 43;
-            this.button3.Text = "SAVED AND PRINT";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(845, 364);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(68, 23);
-            this.label20.TabIndex = 40;
-            this.label20.Text = "WEIGH:";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(1192, 460);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(31, 23);
-            this.label21.TabIndex = 39;
-            this.label21.Text = "KG";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Artifakt Element Heavy", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(885, 364);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(338, 135);
-            this.label22.TabIndex = 38;
-            this.label22.Text = "00.00";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(158, 257);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(20, 23);
-            this.label24.TabIndex = 36;
-            this.label24.Text = "0";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(132, 121);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(82, 23);
-            this.label25.TabIndex = 35;
-            this.label25.Text = "HSXXXXX";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(44, 121);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(66, 23);
-            this.label26.TabIndex = 34;
-            this.label26.Text = "MODEL:";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(158, 176);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(18, 23);
-            this.label27.TabIndex = 33;
-            this.label27.Text = "1";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(44, 176);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(108, 23);
-            this.label28.TabIndex = 32;
-            this.label28.Text = "HP NUMBER:";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(158, 218);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(97, 23);
-            this.label29.TabIndex = 31;
-            this.label29.Text = "HPCODE123";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(45, 218);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(81, 23);
-            this.label30.TabIndex = 30;
-            this.label30.Text = "HP CODE:";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(45, 257);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(92, 23);
-            this.label31.TabIndex = 29;
-            this.label31.Text = "QUANTITY:";
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(48, 88);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(422, 30);
-            this.textBox5.TabIndex = 25;
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(47, 62);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(167, 23);
-            this.label34.TabIndex = 24;
-            this.label34.Text = "SCAN GI BOX SERIAL";
-            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.comboBox1);
@@ -799,6 +698,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(261, 31);
             this.comboBox1.TabIndex = 37;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label42
             // 
@@ -814,104 +714,368 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // lblIDbox
+            // label16
             // 
-            this.lblIDbox.AutoSize = true;
-            this.lblIDbox.Location = new System.Drawing.Point(461, 113);
-            this.lblIDbox.Name = "lblIDbox";
-            this.lblIDbox.Size = new System.Drawing.Size(28, 23);
-            this.lblIDbox.TabIndex = 68;
-            this.lblIDbox.Text = "ID";
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(302, 311);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(68, 23);
+            this.label16.TabIndex = 109;
+            this.label16.Text = "WEIGH:";
             // 
-            // lbllotno
+            // lblpWeigh
             // 
-            this.lbllotno.AutoSize = true;
-            this.lbllotno.Location = new System.Drawing.Point(371, 153);
-            this.lbllotno.Name = "lbllotno";
-            this.lbllotno.Size = new System.Drawing.Size(20, 23);
-            this.lbllotno.TabIndex = 70;
-            this.lbllotno.Text = "0";
+            this.lblpWeigh.AutoSize = true;
+            this.lblpWeigh.Location = new System.Drawing.Point(425, 311);
+            this.lblpWeigh.Name = "lblpWeigh";
+            this.lblpWeigh.Size = new System.Drawing.Size(20, 23);
+            this.lblpWeigh.TabIndex = 108;
+            this.lblpWeigh.Text = "0";
             // 
-            // label10
+            // lblpDate
             // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(295, 153);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(70, 23);
-            this.label10.TabIndex = 69;
-            this.label10.Text = "LOT NO:";
+            this.lblpDate.AutoSize = true;
+            this.lblpDate.Location = new System.Drawing.Point(425, 268);
+            this.lblpDate.Name = "lblpDate";
+            this.lblpDate.Size = new System.Drawing.Size(53, 23);
+            this.lblpDate.TabIndex = 107;
+            this.lblpDate.Text = "DATE:";
             // 
-            // lblreceived
+            // label20
             // 
-            this.lblreceived.AutoSize = true;
-            this.lblreceived.Location = new System.Drawing.Point(422, 194);
-            this.lblreceived.Name = "lblreceived";
-            this.lblreceived.Size = new System.Drawing.Size(20, 23);
-            this.lblreceived.TabIndex = 72;
-            this.lblreceived.Text = "0";
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(298, 268);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(53, 23);
+            this.label20.TabIndex = 106;
+            this.label20.Text = "DATE:";
             // 
-            // label11
+            // lblphpsize
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(295, 194);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(112, 23);
-            this.label11.TabIndex = 71;
-            this.label11.Text = "RECEIVED BY:";
+            this.lblphpsize.AutoSize = true;
+            this.lblphpsize.Location = new System.Drawing.Point(425, 188);
+            this.lblphpsize.Name = "lblphpsize";
+            this.lblphpsize.Size = new System.Drawing.Size(20, 23);
+            this.lblphpsize.TabIndex = 103;
+            this.lblphpsize.Text = "0";
             // 
-            // label6
+            // label24
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(340, 236);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 23);
-            this.label6.TabIndex = 73;
-            this.label6.Text = "IPQC:";
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(298, 188);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(72, 23);
+            this.label24.TabIndex = 102;
+            this.label24.Text = "HP Size:";
             // 
-            // lblipqc
+            // lblpLotno
             // 
-            this.lblipqc.AutoSize = true;
-            this.lblipqc.Location = new System.Drawing.Point(422, 236);
-            this.lblipqc.Name = "lblipqc";
-            this.lblipqc.Size = new System.Drawing.Size(20, 23);
-            this.lblipqc.TabIndex = 74;
-            this.lblipqc.Text = "0";
+            this.lblpLotno.AutoSize = true;
+            this.lblpLotno.Location = new System.Drawing.Point(425, 147);
+            this.lblpLotno.Name = "lblpLotno";
+            this.lblpLotno.Size = new System.Drawing.Size(20, 23);
+            this.lblpLotno.TabIndex = 101;
+            this.lblpLotno.Text = "0";
             // 
-            // lblhsDate
+            // label26
             // 
-            this.lblhsDate.AutoSize = true;
-            this.lblhsDate.Location = new System.Drawing.Point(436, 317);
-            this.lblhsDate.Name = "lblhsDate";
-            this.lblhsDate.Size = new System.Drawing.Size(53, 23);
-            this.lblhsDate.TabIndex = 76;
-            this.lblhsDate.Text = "DATE:";
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(298, 147);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(70, 23);
+            this.label26.TabIndex = 100;
+            this.label26.Text = "LOT NO:";
             // 
-            // label14
+            // lblpBoxid
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(295, 320);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(53, 23);
-            this.label14.TabIndex = 75;
-            this.label14.Text = "DATE:";
+            this.lblpBoxid.AutoSize = true;
+            this.lblpBoxid.Location = new System.Drawing.Point(464, 107);
+            this.lblpBoxid.Name = "lblpBoxid";
+            this.lblpBoxid.Size = new System.Drawing.Size(28, 23);
+            this.lblpBoxid.TabIndex = 99;
+            this.lblpBoxid.Text = "ID";
             // 
-            // label12
+            // label28
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(493, 153);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(68, 23);
-            this.label12.TabIndex = 78;
-            this.label12.Text = "WEIGH:";
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(298, 226);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(108, 23);
+            this.label28.TabIndex = 98;
+            this.label28.Text = "REMAINING:";
             // 
-            // lblGIweigh
+            // lblPremaining
             // 
-            this.lblGIweigh.AutoSize = true;
-            this.lblGIweigh.Location = new System.Drawing.Point(607, 153);
-            this.lblGIweigh.Name = "lblGIweigh";
-            this.lblGIweigh.Size = new System.Drawing.Size(20, 23);
-            this.lblGIweigh.TabIndex = 77;
-            this.lblGIweigh.Text = "0";
+            this.lblPremaining.AutoSize = true;
+            this.lblPremaining.Location = new System.Drawing.Point(425, 226);
+            this.lblPremaining.Name = "lblPremaining";
+            this.lblPremaining.Size = new System.Drawing.Size(20, 23);
+            this.lblPremaining.TabIndex = 97;
+            this.lblPremaining.Text = "0";
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Location = new System.Drawing.Point(36, 365);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(722, 211);
+            this.dataGridView2.TabIndex = 96;
+            // 
+            // lblptype
+            // 
+            this.lblptype.AutoSize = true;
+            this.lblptype.Location = new System.Drawing.Point(145, 311);
+            this.lblptype.Name = "lblptype";
+            this.lblptype.Size = new System.Drawing.Size(20, 23);
+            this.lblptype.TabIndex = 95;
+            this.lblptype.Text = "0";
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(35, 311);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(52, 23);
+            this.label31.TabIndex = 94;
+            this.label31.Text = "TYPE:";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.txtpissuedto);
+            this.groupBox1.Controls.Add(this.label32);
+            this.groupBox1.Controls.Add(this.txtpissuedby);
+            this.groupBox1.Controls.Add(this.label34);
+            this.groupBox1.Controls.Add(this.txtpquantity);
+            this.groupBox1.Controls.Add(this.label35);
+            this.groupBox1.Controls.Add(this.label36);
+            this.groupBox1.Controls.Add(this.lblpBoxseries);
+            this.groupBox1.Controls.Add(this.txtplotno);
+            this.groupBox1.Controls.Add(this.label43);
+            this.groupBox1.Location = new System.Drawing.Point(771, 70);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(520, 292);
+            this.groupBox1.TabIndex = 93;
+            this.groupBox1.TabStop = false;
+            // 
+            // txtpissuedto
+            // 
+            this.txtpissuedto.Location = new System.Drawing.Point(171, 241);
+            this.txtpissuedto.MaxLength = 10;
+            this.txtpissuedto.Name = "txtpissuedto";
+            this.txtpissuedto.Size = new System.Drawing.Size(295, 30);
+            this.txtpissuedto.TabIndex = 46;
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(22, 248);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(97, 23);
+            this.label32.TabIndex = 45;
+            this.label32.Text = "ISSUED TO:";
+            // 
+            // txtpissuedby
+            // 
+            this.txtpissuedby.Location = new System.Drawing.Point(171, 199);
+            this.txtpissuedby.MaxLength = 10;
+            this.txtpissuedby.Name = "txtpissuedby";
+            this.txtpissuedby.Size = new System.Drawing.Size(295, 30);
+            this.txtpissuedby.TabIndex = 44;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(22, 206);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(95, 23);
+            this.label34.TabIndex = 43;
+            this.label34.Text = "ISSUED BY:";
+            // 
+            // txtpquantity
+            // 
+            this.txtpquantity.Location = new System.Drawing.Point(171, 111);
+            this.txtpquantity.Name = "txtpquantity";
+            this.txtpquantity.Size = new System.Drawing.Size(130, 30);
+            this.txtpquantity.TabIndex = 28;
+            this.txtpquantity.TextChanged += new System.EventHandler(this.txtpquantity_TextChanged);
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(22, 118);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(143, 23);
+            this.label35.TabIndex = 37;
+            this.label35.Text = "ISSUE QUANTITY:";
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(19, 27);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(106, 23);
+            this.label36.TabIndex = 41;
+            this.label36.Text = "BOX SERIES:";
+            // 
+            // lblpBoxseries
+            // 
+            this.lblpBoxseries.AutoSize = true;
+            this.lblpBoxseries.Font = new System.Drawing.Font("Artifakt Element", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblpBoxseries.Location = new System.Drawing.Point(16, 50);
+            this.lblpBoxseries.Name = "lblpBoxseries";
+            this.lblpBoxseries.Size = new System.Drawing.Size(355, 37);
+            this.lblpBoxseries.TabIndex = 42;
+            this.lblpBoxseries.Text = "IC-HSXXXX-XXXX-XXXXXA";
+            // 
+            // txtplotno
+            // 
+            this.txtplotno.Location = new System.Drawing.Point(171, 153);
+            this.txtplotno.MaxLength = 10;
+            this.txtplotno.Name = "txtplotno";
+            this.txtplotno.Size = new System.Drawing.Size(295, 30);
+            this.txtplotno.TabIndex = 26;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(22, 160);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(70, 23);
+            this.label43.TabIndex = 27;
+            this.label43.Text = "LOT NO:";
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.PeachPuff;
+            this.button3.Location = new System.Drawing.Point(863, 514);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(348, 62);
+            this.button3.TabIndex = 92;
+            this.button3.Text = "SAVED AND PRINT";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(833, 376);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(68, 23);
+            this.label44.TabIndex = 91;
+            this.label44.Text = "WEIGH:";
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(1180, 472);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(31, 23);
+            this.label45.TabIndex = 90;
+            this.label45.Text = "KG";
+            // 
+            // lblweigh2
+            // 
+            this.lblweigh2.AutoSize = true;
+            this.lblweigh2.Font = new System.Drawing.Font("Artifakt Element Heavy", 71.99999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblweigh2.Location = new System.Drawing.Point(873, 376);
+            this.lblweigh2.Name = "lblweigh2";
+            this.lblweigh2.Size = new System.Drawing.Size(338, 135);
+            this.lblweigh2.TabIndex = 89;
+            this.lblweigh2.Text = "00.00";
+            // 
+            // lblpquantity
+            // 
+            this.lblpquantity.AutoSize = true;
+            this.lblpquantity.Location = new System.Drawing.Point(146, 269);
+            this.lblpquantity.Name = "lblpquantity";
+            this.lblpquantity.Size = new System.Drawing.Size(20, 23);
+            this.lblpquantity.TabIndex = 88;
+            this.lblpquantity.Text = "0";
+            // 
+            // lblpmodel
+            // 
+            this.lblpmodel.AutoSize = true;
+            this.lblpmodel.Location = new System.Drawing.Point(120, 147);
+            this.lblpmodel.Name = "lblpmodel";
+            this.lblpmodel.Size = new System.Drawing.Size(82, 23);
+            this.lblpmodel.TabIndex = 87;
+            this.lblpmodel.Text = "HSXXXXX";
+            this.lblpmodel.TextChanged += new System.EventHandler(this.lblpmodel_TextChanged);
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(32, 147);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(66, 23);
+            this.label49.TabIndex = 86;
+            this.label49.Text = "MODEL:";
+            // 
+            // lblphpnumber
+            // 
+            this.lblphpnumber.AutoSize = true;
+            this.lblphpnumber.Location = new System.Drawing.Point(146, 188);
+            this.lblphpnumber.Name = "lblphpnumber";
+            this.lblphpnumber.Size = new System.Drawing.Size(18, 23);
+            this.lblphpnumber.TabIndex = 85;
+            this.lblphpnumber.Text = "1";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(32, 188);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(108, 23);
+            this.label51.TabIndex = 84;
+            this.label51.Text = "HP NUMBER:";
+            // 
+            // lblphpcode
+            // 
+            this.lblphpcode.AutoSize = true;
+            this.lblphpcode.Location = new System.Drawing.Point(146, 230);
+            this.lblphpcode.Name = "lblphpcode";
+            this.lblphpcode.Size = new System.Drawing.Size(97, 23);
+            this.lblphpcode.TabIndex = 83;
+            this.lblphpcode.Text = "HPCODE123";
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(33, 230);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(81, 23);
+            this.label53.TabIndex = 82;
+            this.label53.Text = "HP CODE:";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(35, 269);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(92, 23);
+            this.label54.TabIndex = 81;
+            this.label54.Text = "QUANTITY:";
+            // 
+            // txtpboxserial
+            // 
+            this.txtpboxserial.Location = new System.Drawing.Point(36, 100);
+            this.txtpboxserial.Name = "txtpboxserial";
+            this.txtpboxserial.Size = new System.Drawing.Size(422, 30);
+            this.txtpboxserial.TabIndex = 80;
+            this.txtpboxserial.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpboxserial_KeyPress);
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(35, 74);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(145, 23);
+            this.label55.TabIndex = 79;
+            this.label55.Text = "SCAN BOX SERIAL";
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // Issuance
             // 
@@ -938,12 +1102,13 @@
             this.panel3.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -960,29 +1125,6 @@
         private System.Windows.Forms.Label label33;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.Label label35;
         private System.Windows.Forms.Label lblGIHStype;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.GroupBox groupBox2;
@@ -1010,8 +1152,6 @@
         private System.Windows.Forms.Label label39;
         private System.Windows.Forms.TextBox txtGIBox;
         private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label37;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.ComboBox comboBox1;
@@ -1030,5 +1170,45 @@
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label lblGIweigh;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lblpWeigh;
+        private System.Windows.Forms.Label lblpDate;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label lblphpsize;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.Label lblpLotno;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.Label lblpBoxid;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.Label lblPremaining;
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.Label lblptype;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox txtpissuedto;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.TextBox txtpissuedby;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.TextBox txtpquantity;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.Label lblpBoxseries;
+        private System.Windows.Forms.TextBox txtplotno;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.Label lblweigh2;
+        private System.Windows.Forms.Label lblpquantity;
+        private System.Windows.Forms.Label lblpmodel;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.Label lblphpnumber;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.Label lblphpcode;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.TextBox txtpboxserial;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.Timer timer2;
     }
 }

@@ -148,6 +148,26 @@ namespace GIGRSystem
             }
 
         }
+        public void hsiData(string query)
+        {
+            try
+            {
+                mycon = new MySqlConnection(connectionHS);
+                mycon.Open();
+                mycom = new MySqlCommand(query, mycon);
+                mycom.ExecuteNonQuery();
+                mycon.Close();
+                mycon.Dispose();
+            }
+            catch (Exception)
+            {
+                mycon.Close();
+                mycon.Dispose();
+
+                throw;
+            }
+
+        }
 
         public DataSet filldata(string query)
         {
